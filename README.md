@@ -32,6 +32,34 @@ Vollständiger Systemscan und wichtige Ordner
 Sicheres Quarantäne- oder Lösch-Management verdächtiger Dateien
 
 Sicher, transparent und zuverlässig für den Schutz Ihres Systems.
+1-Python Required: Python 3.10+
+2-Dependencies:
+'''
+pip install yara-python
+'''
+3-Clone the repository:
+'''
+git clone https://github.com/username/MyloBot-YARA-Scanner.git
+cd MyloBot-YARA-Scanner
+'''
+4- Run the program:
+'''
+python gui_mylobot_yara_advanced_fixed.py
+'''
+run prtogram mit Administrator
+
+Folder Structure
+'''
+MyloBot-YARA-Scanner/
+│
+├─ gui_mylobot_yara_advanced_fixed.py  # Main script
+├─ rules/                             # Folder for .yar YARA rules
+├─ quarantine/                        # Folder for quarantined files
+└─ README.md
+'''
+
+
+ 
 Regeln hinzugefügt .yar
 
 Programmiert von Muhammad Askari | Telegram 
